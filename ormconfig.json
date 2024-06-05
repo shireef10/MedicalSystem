@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "medical_system",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "useNewUrlParser": true,
+  "keepConnectionAlive": true
+}
